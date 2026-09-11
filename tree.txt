@@ -1,0 +1,5 @@
+cryoem_project/
+├── dataset_generation.py    # Main script
+├── cryoem_simulator.py      # Simulator class
+├── requirements.txt         # Dependencies
+└── data/simulated_3class/  # Output folder

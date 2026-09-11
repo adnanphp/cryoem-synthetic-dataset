@@ -1,0 +1,7 @@
+python quick_test.py
+
+python dataset_generation.py --size small
+
+python dataset_generation.py --size full --image_size 224
+
+python dataset_generation.py --size medium --image_size 128

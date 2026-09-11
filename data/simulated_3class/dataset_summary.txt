@@ -1,0 +1,43 @@
+============================================================
+CRYO-EM SIMULATED DATASET SUMMARY
+============================================================
+
+DATASET INFORMATION:
+  Number of classes: 3
+  Images per class: 1000
+  Total images: 3000
+  Image size: 224x224 pixels
+  Format: PNG (8-bit grayscale)
+
+CLASS DESCRIPTIONS:
+  1. class0_good_particles: Clean, well-defined protein particles
+     - Mild CTF effects
+     - Low noise (SNR: 15-25)
+     - Good contrast
+
+  2. class1_bad_particles: Noisy, aggregated, or damaged particles
+     - Strong CTF effects (high defocus)
+     - High noise (SNR: 5-10)
+     - Multiple overlapping particles
+     - Ice contamination
+
+  3. class2_pure_noise: Background/empty areas
+     - Random Gaussian noise
+     - Structural noise (ice/carbon artifacts)
+     - No real particles
+
+SIMULATION PARAMETERS:
+  - Gaussian particle shapes
+  - Contrast Transfer Function (CTF) applied
+  - Poisson noise (electron counting statistics)
+  - Gaussian noise (detector noise)
+  - Ice contamination simulation
+  - Random rotations and positions
+
+INTENDED USE:
+  Training CNNs for cryo-EM particle picking
+  Binary/ternary classification: particle vs noise
+  Testing preprocessing methods for cryo-EM
+
+GENERATED: 2026-01-26T10:23:37
+============================================================
